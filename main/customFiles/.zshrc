@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/ripper/.oh-my-zsh
+export ZSH=/home/$USER/.oh-my-zsh
 
 #########THEME##########
 ZSH_THEME="robbyrussell"
@@ -17,12 +17,12 @@ plugins=(git command-not-found git-extras sublime web-search wd)
 
 ##########PATHS###########
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ripper/.rvm/bin"
-export NVM_DIR="/home/ripper/.nvm"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/$USER/.rvm/bin:$HOME/.composer/vendor/bin:$HOME/.nvm"
+export NVM_DIR="/home/$USER/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
+#source /home/$USER/.nvm/nvm.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
