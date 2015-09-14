@@ -1,0 +1,10 @@
+[alias]
+	co = checkout
+	st = status
+	mr = merge
+	ci = commit
+	ps = push
+	ft = fetch
+[user]
+	email = ricardo.pcan@gmail.com
+	name = Ripper
