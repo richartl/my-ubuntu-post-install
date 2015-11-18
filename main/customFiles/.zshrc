@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/$USER/.oh-my-zsh
-
+export EDITOR='vim'
 #########THEME##########
 ZSH_THEME="robbyrussell"
 
@@ -27,7 +27,18 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 source $ZSH/oh-my-zsh.sh
 
+## TMUXINATOR
+fpath=($HOME/.tmuxinator/completion ${fpath})
+autoload -U compinit
+compinit
+
 ############ALIAS##############
 alias tx="tmux"
 alias txa="tmux a -t"
 alias txn="tmux new -s"
+# ----- Begin vim-awesome -----
+alias tmux="tmux -2"
+# Ctrl s
+alias vim="stty stop '' -ixoff ; vim"
+ttyctl -f # 'Frozing' tty, so after any command terminal settings will be restored
+# ----- End vim-awesome -----

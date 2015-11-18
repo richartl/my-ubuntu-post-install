@@ -6,6 +6,9 @@ mkdir ~/.i3
 sudo ln -s ~/my-ubuntu-post-install/main/customFiles/config ~/.i3/
 rm ~/.gitconfig
 sudo ln -s ~/my-ubuntu-post-install/main/customFiles/.gitconfig ~/
+rm -r ~/.tmuxinator
+mkdir -p ~/.tmuxinator/completion
+cp $PWD/customFiles/_tmuxinator ~/.tmuxinator/completion
 
 
 #Alias

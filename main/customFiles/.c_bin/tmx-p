@@ -1,0 +1,8 @@
+#!/bin/bash
+tmux new-session -s code-$1 -n code -d
+tmux new-session -s console-$1 -n console -d
+tmux new-session -s utils-$1 -n utils -d
+tmux new-session -s files-$1 -n files -d
+
+# send comands
+tmux send-keys -t files-$1 mc ENTER

@@ -161,9 +161,9 @@ client.urgent #77216f #77216f #ffffff #efb73e
 
 ## nautilus without desktop
 
-bindsym $mod+b exec nautilus --no-desktop &
+bindsym $mod+b exec thunar
 
 ## Display backgroun image
 #exec --no-startup-id feh --bg-scale
 
-exec --no-startup-id feh --bg-scale /home/ripper/myimages/jetpack-octocat-airlock-b1d6ad7f41f88e5207896fe1f63ca30b.jpg
+exec --no-startup-id feh --bg-scale /home/ripper/myimages/wp1.png
