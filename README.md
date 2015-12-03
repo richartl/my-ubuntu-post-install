@@ -1,5 +1,5 @@
 # my-ubuntu-post-install
-This is my repo with the my ubuntu post install scripts. This is my personal config and the scripts are within independent file.
+This is my repo with the my ubuntu post install scripts. This is my personal config and the scripts are within independent files. This scripts are running and code over `Ubuntu 14.04`
 
 ## Scripts
 ### For development
