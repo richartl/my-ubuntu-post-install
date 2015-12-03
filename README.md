@@ -16,4 +16,4 @@ This is my repo with the my ubuntu post install scripts. This is my personal con
 * Vagrant
 * Docker
 
-For use install just execute with `./{script_name}.sh
+For use install just execute with `./{script_name}.sh`
